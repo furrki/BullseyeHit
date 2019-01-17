@@ -16,9 +16,9 @@ class MainVC: UIViewController {
     @IBOutlet weak var slider: UISlider!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-        
+        super.viewDidLoad() 
     }
+    
     @IBAction func HitMeButtonClicked(_ sender: Any) {
     }
     

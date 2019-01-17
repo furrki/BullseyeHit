@@ -21,6 +21,7 @@ class Game {
     
     func doMove(shot: Int) -> String{
         let diff = abs(shot - target)
+        generateLevel()
         if diff == 0 {
             score += Game.pointScale[0]
             return Game.taunts[0]
@@ -41,10 +42,18 @@ class Game {
     
     func generateLevel(){
         target = Int.random(in: 1...100)
+        round += 1
+    }
+    
+    func initializeGame(){
+        score = 0
+        round = 0
+        generateLevel()
+        
     }
     
     init(){
-        generateLevel()
+        initializeGame()
     }
     
     deinit{
