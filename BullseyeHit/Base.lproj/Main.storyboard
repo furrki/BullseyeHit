@@ -133,6 +133,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="DqR-WV-vep" firstAttribute="top" secondItem="YuX-IA-Nhr" secondAttribute="top" constant="1" id="Bkk-fu-CiU"/>
+                                    <constraint firstAttribute="width" constant="203" id="VNj-1H-NZ2"/>
                                     <constraint firstItem="BB2-Tw-rxC" firstAttribute="leading" secondItem="DqR-WV-vep" secondAttribute="trailing" constant="38" id="Wc5-Vq-Dwm"/>
                                     <constraint firstAttribute="height" constant="22" id="oKK-6d-4zW"/>
                                     <constraint firstItem="BB2-Tw-rxC" firstAttribute="top" secondItem="YuX-IA-Nhr" secondAttribute="top" id="vNO-rw-IeS"/>
@@ -151,7 +152,6 @@
                             <constraint firstItem="pyy-cl-08Y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Tx3-bK-Wy7"/>
                             <constraint firstItem="g4f-HN-W1j" firstAttribute="top" secondItem="4Ol-VI-CcB" secondAttribute="bottom" constant="53" id="VaR-LJ-Vse"/>
                             <constraint firstItem="W5P-ZH-W62" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="cRI-lM-9RH"/>
-                            <constraint firstItem="YuX-IA-Nhr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="232" id="eLW-BH-9wf"/>
                             <constraint firstItem="g4f-HN-W1j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gAs-Ro-CeH"/>
                             <constraint firstItem="4Ol-VI-CcB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="jJ4-VK-tXb"/>
                             <constraint firstItem="YuX-IA-Nhr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pHl-8r-k8P"/>
