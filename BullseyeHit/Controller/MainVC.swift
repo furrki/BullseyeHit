@@ -32,7 +32,7 @@ class MainVC: UIViewController {
     
     func doMove(){
         let taunt = Game.shared.doMove(shot: Int(slider!.value))
-        tauntLabel.text = String(taunt)
+        tauntLabel.text = "\(taunt) (\(Int(slider!.value)))"
         refreshScene()
     }
     
