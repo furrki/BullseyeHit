@@ -22,19 +22,16 @@
                                 <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="W5P-ZH-W62" userLabel="TargetDisplay">
-                                <rect key="frame" x="237.5" y="60" width="192.5" height="32"/>
+                                <rect key="frame" x="237.5" y="60" width="192.5" height="39"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hit Me At:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XTu-5Q-bw0">
-                                        <rect key="frame" x="0.0" y="0.0" width="134.5" height="32"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="134.5" height="39"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Bh-so-L3V">
-                                        <rect key="frame" x="142.5" y="0.0" width="50" height="32"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="50" id="jwT-Gf-7kZ"/>
-                                        </constraints>
+                                        <rect key="frame" x="142.5" y="0.0" width="50" height="39"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -45,10 +42,10 @@
                                 </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Ol-VI-CcB" userLabel="SliderContainer">
-                                <rect key="frame" x="59" y="135" width="549" height="29"/>
+                                <rect key="frame" x="59" y="142" width="549" height="30"/>
                                 <subviews>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="qwy-c1-s6T" customClass="BullSlider" customModule="BullseyeHit" customModuleProvider="target">
-                                        <rect key="frame" x="25" y="0.0" width="485" height="30"/>
+                                        <rect key="frame" x="27" y="0.0" width="483" height="31"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="trackWidth">
                                                 <real key="value" value="25"/>
@@ -59,14 +56,14 @@
                                             <action selector="touchUpOutside:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="OOb-P4-hR0"/>
                                         </connections>
                                     </slider>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zmH-9X-Wai">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zmH-9X-Wai">
                                         <rect key="frame" x="515" y="3" width="34" height="22"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f67-wz-ll3">
-                                        <rect key="frame" x="8" y="3" width="11" height="22"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f67-wz-ll3">
+                                        <rect key="frame" x="8" y="3" width="12" height="22"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -74,10 +71,10 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="qwy-c1-s6T" firstAttribute="leading" secondItem="f67-wz-ll3" secondAttribute="trailing" constant="7" id="1Uf-AC-OK0"/>
+                                    <constraint firstItem="qwy-c1-s6T" firstAttribute="leading" secondItem="f67-wz-ll3" secondAttribute="trailing" constant="9" id="1Uf-AC-OK0"/>
                                     <constraint firstItem="f67-wz-ll3" firstAttribute="firstBaseline" secondItem="zmH-9X-Wai" secondAttribute="firstBaseline" id="5Xw-QF-mNq"/>
                                     <constraint firstItem="qwy-c1-s6T" firstAttribute="top" secondItem="4Ol-VI-CcB" secondAttribute="top" id="BuQ-XX-isN"/>
-                                    <constraint firstItem="f67-wz-ll3" firstAttribute="centerY" secondItem="qwy-c1-s6T" secondAttribute="centerY" id="NEt-dZ-Uob"/>
+                                    <constraint firstItem="f67-wz-ll3" firstAttribute="centerY" secondItem="qwy-c1-s6T" secondAttribute="centerY" constant="-1" id="NEt-dZ-Uob"/>
                                     <constraint firstItem="f67-wz-ll3" firstAttribute="leading" secondItem="4Ol-VI-CcB" secondAttribute="leadingMargin" id="ZKc-op-Y74"/>
                                     <constraint firstAttribute="bottom" secondItem="qwy-c1-s6T" secondAttribute="bottom" id="iRt-cn-KJw"/>
                                     <constraint firstItem="f67-wz-ll3" firstAttribute="baseline" secondItem="zmH-9X-Wai" secondAttribute="baseline" id="mrr-1r-L93"/>
@@ -86,17 +83,15 @@
                                     <constraint firstItem="zmH-9X-Wai" firstAttribute="leading" secondItem="qwy-c1-s6T" secondAttribute="trailing" constant="7" id="wdw-3P-WhR"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iEz-6u-LWi" customClass="HitButton" customModule="BullseyeHit" customModuleProvider="target">
-                                <rect key="frame" x="263" y="203" width="141" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do what you can :)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g4f-HN-W1j">
+                                <rect key="frame" x="214.5" y="225" width="238" height="28"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="aBJ-Y2-ic9"/>
-                                    <constraint firstAttribute="width" constant="141" id="q18-A3-xjt"/>
+                                    <constraint firstAttribute="height" constant="28" id="DE1-tX-Mpr"/>
                                 </constraints>
-                                <state key="normal" title="HIT!"/>
-                                <connections>
-                                    <action selector="HitMeButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bLZ-z0-d7C"/>
-                                </connections>
-                            </button>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YuX-IA-Nhr">
                                 <rect key="frame" x="232" y="314" width="203" height="22"/>
                                 <subviews>
@@ -144,28 +139,21 @@
                                     <constraint firstItem="DqR-WV-vep" firstAttribute="leading" secondItem="YuX-IA-Nhr" secondAttribute="leading" id="xyX-eI-wwt"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do what you can :)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g4f-HN-W1j">
-                                <rect key="frame" x="55" y="263" width="556" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="pyy-cl-08Y" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="A0A-tq-ItI"/>
                             <constraint firstItem="4Ol-VI-CcB" firstAttribute="top" secondItem="W5P-ZH-W62" secondAttribute="bottom" constant="43" id="CpT-Oy-2z3"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YuX-IA-Nhr" secondAttribute="bottom" constant="39" id="FHW-H4-9Tn"/>
+                            <constraint firstItem="YuX-IA-Nhr" firstAttribute="top" secondItem="g4f-HN-W1j" secondAttribute="bottom" constant="61" id="IOQ-yb-QSD"/>
                             <constraint firstItem="pyy-cl-08Y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="KOk-KF-5uY"/>
-                            <constraint firstItem="YuX-IA-Nhr" firstAttribute="top" secondItem="iEz-6u-LWi" secondAttribute="bottom" constant="81" id="PEI-oa-ank"/>
                             <constraint firstItem="pyy-cl-08Y" firstAttribute="centerX" secondItem="4Ol-VI-CcB" secondAttribute="centerX" id="ReB-FL-7f0"/>
                             <constraint firstItem="pyy-cl-08Y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Tx3-bK-Wy7"/>
+                            <constraint firstItem="g4f-HN-W1j" firstAttribute="top" secondItem="4Ol-VI-CcB" secondAttribute="bottom" constant="53" id="VaR-LJ-Vse"/>
                             <constraint firstItem="W5P-ZH-W62" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="cRI-lM-9RH"/>
                             <constraint firstItem="YuX-IA-Nhr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="232" id="eLW-BH-9wf"/>
-                            <constraint firstItem="iEz-6u-LWi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iXL-Og-UzZ"/>
+                            <constraint firstItem="g4f-HN-W1j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gAs-Ro-CeH"/>
                             <constraint firstItem="4Ol-VI-CcB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="jJ4-VK-tXb"/>
-                            <constraint firstItem="iEz-6u-LWi" firstAttribute="top" secondItem="4Ol-VI-CcB" secondAttribute="bottom" constant="39" id="oGu-TI-KQZ"/>
                             <constraint firstItem="YuX-IA-Nhr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pHl-8r-k8P"/>
                             <constraint firstItem="4Ol-VI-CcB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pHp-En-jFi"/>
                             <constraint firstItem="W5P-ZH-W62" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pOb-Zo-hTT"/>
