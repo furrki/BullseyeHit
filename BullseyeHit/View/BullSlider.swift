@@ -41,7 +41,7 @@ open class BullSlider: UISlider {
         maximumTrackTintColor = rightColor
         
         self.setThumbImage(#imageLiteral(resourceName: "star"), for: .normal)
-        self.setThumbImage(#imageLiteral(resourceName: "start_blue"), for: .focused)
+        self.setThumbImage(#imageLiteral(resourceName: "start_blue"), for: .selected)
         
     }
 
