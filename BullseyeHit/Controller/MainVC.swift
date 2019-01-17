@@ -22,7 +22,15 @@ class MainVC: UIViewController {
         refreshScene()
     }
     
-    @IBAction func HitMeButtonClicked(_ sender: Any) {
+    @IBAction func touchUpOutside(_ sender: Any) {
+        doMove()
+    }
+    
+    @IBAction func touchUpInside(_ sender: Any) {
+        doMove()
+    }
+    
+    func doMove(){
         let taunt = Game.shared.doMove(shot: Int(slider!.value))
         tauntLabel.text = String(taunt)
         refreshScene()
