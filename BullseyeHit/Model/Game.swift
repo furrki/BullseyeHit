@@ -22,7 +22,7 @@ class Game {
     func doMove(shot: Int) -> String{
         let diff = abs(shot - target)
         generateLevel()
-        if diff == 0 {
+        if diff <= 1 {
             score += Game.pointScale[0]
             return Game.taunts[0]
         } else if diff < 5 {

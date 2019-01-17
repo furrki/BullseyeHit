@@ -24,10 +24,6 @@ open class BullSlider: UISlider {
         )
     }
     
-    override open func draw(_ rect: CGRect) {
-        super.draw(rect)
-        customView()
-    }
     override open func prepareForInterfaceBuilder() {
         customView()
     }
@@ -38,18 +34,14 @@ open class BullSlider: UISlider {
     }
     
     func customView() {
-        /*let leftImage = #imageLiteral(resourceName: "blueCircle")
-        let rightImage = #imageLiteral(resourceName: "greenCircle")
-        let leftTrackable = leftImage.resizableImage(withCapInsets: UIEdgeInsets(top: 0, left: 15, bottom: 0, right: 15))
-        let rightTrackable = rightImage.resizableImage(withCapInsets: UIEdgeInsets(top: 0, left: 15, bottom: 0, right: 15))
-        
-        setMinimumTrackImage(leftTrackable, for: .normal)
-        setMaximumTrackImage(rightTrackable, for: .normal)*/
         let leftColor = #colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1)
         let rightColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
         
-        self.minimumTrackTintColor = leftColor
-        self.maximumTrackTintColor = rightColor
+        minimumTrackTintColor = leftColor
+        maximumTrackTintColor = rightColor
+        
+        self.setThumbImage(#imageLiteral(resourceName: "star"), for: .normal)
+        self.setThumbImage(#imageLiteral(resourceName: "start_blue"), for: .focused)
         
     }
 

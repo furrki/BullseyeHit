@@ -47,8 +47,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Ol-VI-CcB" userLabel="SliderContainer">
                                 <rect key="frame" x="59" y="135" width="549" height="29"/>
                                 <subviews>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="qwy-c1-s6T" customClass="BullSlider" customModule="BullseyeHit" customModuleProvider="target">
-                                        <rect key="frame" x="23.5" y="0.0" width="486.5" height="30"/>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="qwy-c1-s6T" customClass="BullSlider" customModule="BullseyeHit" customModuleProvider="target">
+                                        <rect key="frame" x="25" y="0.0" width="485" height="30"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="trackWidth">
                                                 <real key="value" value="25"/>
@@ -61,7 +61,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f67-wz-ll3">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f67-wz-ll3">
                                         <rect key="frame" x="8" y="3" width="11" height="22"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -140,6 +140,13 @@
                                     <constraint firstItem="DqR-WV-vep" firstAttribute="leading" secondItem="YuX-IA-Nhr" secondAttribute="leading" id="xyX-eI-wwt"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do what you can :)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g4f-HN-W1j">
+                                <rect key="frame" x="55" y="263" width="556" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -169,6 +176,7 @@
                         <outlet property="scoreLabel" destination="wzv-sj-wSw" id="Ewr-PN-YUZ"/>
                         <outlet property="slider" destination="qwy-c1-s6T" id="XY1-HM-ZEE"/>
                         <outlet property="targetLabel" destination="0Bh-so-L3V" id="8c1-ag-qUG"/>
+                        <outlet property="tauntLabel" destination="g4f-HN-W1j" id="MT5-T0-3t6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
