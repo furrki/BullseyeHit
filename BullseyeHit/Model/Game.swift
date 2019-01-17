@@ -9,5 +9,6 @@
 import Foundation
 
 class Game {
+    static var shared = Game()
     
 }

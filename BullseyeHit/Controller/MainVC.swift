@@ -14,6 +14,7 @@ class MainVC: UIViewController {
     @IBOutlet weak var roundLabel: UILabel!
     @IBOutlet weak var targetLabel: UILabel!
     @IBOutlet weak var slider: UISlider!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

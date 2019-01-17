@@ -23,6 +23,9 @@
 		849E84A621F1061A003961D6 /* HitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E84A521F1061A003961D6 /* HitButton.swift */; };
 		849E84A721F1061A003961D6 /* HitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E84A521F1061A003961D6 /* HitButton.swift */; };
 		849E84A821F1061A003961D6 /* HitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E84A521F1061A003961D6 /* HitButton.swift */; };
+		849E84AA21F10FE1003961D6 /* BullSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E84A921F10FE1003961D6 /* BullSlider.swift */; };
+		849E84AB21F10FE1003961D6 /* BullSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E84A921F10FE1003961D6 /* BullSlider.swift */; };
+		849E84AC21F10FE1003961D6 /* BullSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E84A921F10FE1003961D6 /* BullSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +52,7 @@
 		849E846C21F0EC44003961D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		849E846E21F0EC45003961D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849E847121F0EC45003961D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		849E847321F0EC45003961D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849E847321F0EC45003961D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../BullseyeHit/Info.plist; sourceTree = "<group>"; };
 		849E847821F0EC45003961D6 /* BullseyeHitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullseyeHitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849E847C21F0EC45003961D6 /* BullseyeHitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeHitTests.swift; sourceTree = "<group>"; };
 		849E847E21F0EC46003961D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +62,7 @@
 		849E849821F0EED6003961D6 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		849E849D21F1015D003961D6 /* background_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_2.jpg; sourceTree = "<group>"; };
 		849E84A521F1061A003961D6 /* HitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitButton.swift; sourceTree = "<group>"; };
+		849E84A921F10FE1003961D6 /* BullSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +121,6 @@
 				849E846B21F0EC44003961D6 /* Main.storyboard */,
 				849E846E21F0EC45003961D6 /* Assets.xcassets */,
 				849E847021F0EC45003961D6 /* LaunchScreen.storyboard */,
-				849E847321F0EC45003961D6 /* Info.plist */,
 			);
 			path = BullseyeHit;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 		849E847B21F0EC45003961D6 /* BullseyeHitTests */ = {
 			isa = PBXGroup;
 			children = (
+				849E847321F0EC45003961D6 /* Info.plist */,
 				849E847C21F0EC45003961D6 /* BullseyeHitTests.swift */,
 				849E847E21F0EC46003961D6 /* Info.plist */,
 			);
@@ -160,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				849E84A521F1061A003961D6 /* HitButton.swift */,
+				849E84A921F10FE1003961D6 /* BullSlider.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -308,6 +313,7 @@
 			files = (
 				849E846A21F0EC43003961D6 /* MainVC.swift in Sources */,
 				849E849921F0EED6003961D6 /* Game.swift in Sources */,
+				849E84AA21F10FE1003961D6 /* BullSlider.swift in Sources */,
 				849E846821F0EC43003961D6 /* AppDelegate.swift in Sources */,
 				849E84A621F1061A003961D6 /* HitButton.swift in Sources */,
 			);
@@ -318,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				849E847D21F0EC45003961D6 /* BullseyeHitTests.swift in Sources */,
+				849E84AB21F10FE1003961D6 /* BullSlider.swift in Sources */,
 				849E849A21F0EED6003961D6 /* Game.swift in Sources */,
 				849E84A721F1061A003961D6 /* HitButton.swift in Sources */,
 			);
@@ -328,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				849E848821F0EC46003961D6 /* BullseyeHitUITests.swift in Sources */,
+				849E84AC21F10FE1003961D6 /* BullSlider.swift in Sources */,
 				849E849B21F0EED6003961D6 /* Game.swift in Sources */,
 				849E84A821F1061A003961D6 /* HitButton.swift in Sources */,
 			);
