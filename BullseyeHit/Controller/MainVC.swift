@@ -10,10 +10,16 @@ import UIKit
 
 class MainVC: UIViewController {
 
+    @IBOutlet weak var scoreLabel: UILabel!
+    @IBOutlet weak var roundLabel: UILabel!
+    @IBOutlet weak var targetLabel: UILabel!
+    @IBOutlet weak var slider: UISlider!
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
-
+    @IBAction func HitMeButtonClicked(_ sender: Any) {
+    }
+    
 }
 
